@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/linerLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:gravity="top">
+
+
+    <!--android:textCursorDrawable="@color/colorPrimary"-->
+
+
+    <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_User_Name"
+            android:ems="10"
+            android:autofillHints=""
+            android:textColor="@color/colorBlack"
+            android:theme="@style/EditTextTheme"
+    />
+</LinearLayout >
